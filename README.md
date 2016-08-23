@@ -1,5 +1,5 @@
 # CodeIgniter Image-String Converter
-This Codeigniter Library purpose is to turn an image file passed to it to a string of the image
+This Codeigniter Library purpose is to turn an image file passed to it to a string of the image, and vice versa
 
 Installation -
 - Download the Imagestring.php from this repo
