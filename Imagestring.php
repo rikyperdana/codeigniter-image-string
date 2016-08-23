@@ -8,14 +8,14 @@ class Imagestring {
     }
 	  
 	  // function to turn an image file to a string
-	  function image2string($upload_data) {
+	  function image2string($file_name) {
 	  
 	  //load the native CI Image_lib
 		$this->CI->load->library('image_lib');
 		
 		//change the 'upload' to your own image storage folder's name
 		//and place it on root folder (beside application and system)
-		$image_lib['source_image'] = getcwd().'/uploads/'.$upload_data['file_name'];
+		$image_lib['source_image'] = getcwd().'/uploads/'.$file_name;
 		
     //let the maintain_ratio TRUE if you don't want the image get stretched
 		$image_lib['maintain_ratio'] = TRUE;
