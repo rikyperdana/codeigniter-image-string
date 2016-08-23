@@ -1,4 +1,4 @@
-# codeigniter-image-string
+# CodeIgniter Image String Converter
 This Codeigniter Library purpose is to turn an image file passed to it to a string of the image
 
 Installation -
